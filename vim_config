@@ -187,3 +187,6 @@ let g:vim_g_command = "G"
 
 " go to next visible tag
 nnoremap <leader>% :MtaJumpToOtherTag<cr>
+
+" shortcuts for colorize 
+nmap <Leader>ct :ColorToggle<CR>
