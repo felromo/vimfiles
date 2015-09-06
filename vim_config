@@ -43,7 +43,7 @@ vnoremap > >gv
 let g:neocomplete#enable_at_startup = 1
 set laststatus=2
 let g:airline_powerline_fonts = 1
-"let base16colorspace=256
+let base16colorspace=256
 
 set number
 set showmatch
@@ -56,11 +56,12 @@ set autoindent
 
 set background=dark
 "let g:hybrid_use_Xresources = 1
-let g:solarized_use_Xresources = 1
+"let g:solarized_use_Xresources = 1
 "colorscheme hybrid
 "colorscheme PaperColor
 "colorscheme solarized
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme base16-eighties
 
 set mouse=a
 
@@ -71,6 +72,8 @@ syntax on
 autocmd FileType python setl shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType html setl shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType javascript setl shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType scss setl shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType css setl shiftwidth=2 tabstop=2 softtabstop=2
 
 set shiftround
 set expandtab
