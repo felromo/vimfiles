@@ -51,6 +51,8 @@ Plugin 'morhetz/gruvbox'
 Plugin 'tpope/vim-fugitive'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
+Plugin 'chriskempson/base16-vim'
+Plugin 'chrisbra/Colorizer'
 
 call vundle#end()
 filetype plugin indent on
